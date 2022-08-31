@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML8</title>
+    <style>
+        .body{
+            background-image: url(backgroundimage.jpg);
+        }
+        .top{
+            background-color:#f7f7f7;
+        }
+        #toptext{
+           text-align:right;
+           color:#7a7a7a;
+           font-family:Verdana;
+           font-size:11px;
+        }
+        #toplink{
+            color:#fc91a9;
+        }
+        .logo{
+            padding-top:20px;
+        }
+        #logotext{
+            color:#7a7a7a;
+            font-family:verdana;
+            font-size:11px;
+            display:inline-flex;
+        }
+        #iconimage{
+            float:left;
+        }
+        #logoammount{
+            font-family:verdana;
+            font-size:11px;
+            display:inline;
+            color:#fc91a9;
+        }
+        #logocol{
+            text-align:right;
+        }
+        .nav-item{
+            padding-left:20px;
+            margin-left:20px;
+        }
+        #navlinks{
+            font-family:Tahoma;
+            font-size:14px;
+            color:#7a7a7a;
+        }
+        .sale{
+            background-image:url(salebackground.jpg);
+            padding-top:50px;
+            padding-bottom:325px;
+        }
+        #saleheading{
+            font-family:arial;
+            font-size: 47.22px;
+            color:#ffffff;
+            text-align:right;
+        }
+        #salesubheading{
+            font-family:arial;
+            font-size: 38.91.22px;
+            color:#ff0033;
+            text-align:right;
+        }
+        #salestext{
+            font-family:arial;
+            font-size:18px;
+            color:#ffffff;
+            text-align:right;
+            }
+            .salecontent{
+                background-color:black;
+                opacity:0.8;
+                float:right;
+                padding:20px;
+            }
+            .btn{
+                padding-top:5px;
+            }
+            .welcome{
+                padding-top:20px;
+            }
+            #welcomeheading{
+                font-family: Verdana;
+                font-size:35.08px;
+                color:#ff0033;
+            }
+            #welcometext{
+                font-family: Verdana;
+                font-size:14px;
+                color:#131722;
+                padding-left:10px;
+            }
+            #readmore{
+                text-align:right;
+                font-family:Tahoma;
+                font-size: 12px;
+                color:#ff0033
+            }
+            .newarrival{
+                padding-top:20px;
+                padding-bottom:20px;
+            }
+            #newarrivalheading{
+                font-family:Tahoma;
+                font-size:19.81px;
+                color:black;
+                text-align:left;
+                display: inline;
+            }
+            #imagename{
+                font-family:Tahoma;
+                font-size:14px;
+                color:black;
+                text-align:left;
+                padding-left:35px;
+            }
+            .btnname{
+                margin-left:30px;
+            }
+            #price{
+                font-family:Tahoma;
+                font-size:16.34px;
+                color:#f30054;
+                display: inline-block;
+            }
+            .womencollection{
+                padding-top:20px;
+                padding-bottom:20px;
+            }
+            #view{
+                color:#ff0033;
+            }
+            #viewall{
+                font-family:Tahoma;
+                font-size: 14px;
+                display:inline;
+                text-align: right;
+                float: inline-end;
+            }
+            .mencollection{
+                padding-top:20px;
+                padding-bottom:20px;
+            }
+            #right{
+                text-align: right;
+            }
+            .women{
+                background-color:black;
+                padding-top:20px;
+            }
+            #womenheading{
+                font-family:Tahoma;
+                display: inline;
+                padding-left: 5px;
+                padding-top:5px;
+                margin-left:5px;
+                margin-top:5px;
+                font-size: 250;
+                color:#ffffff;
+            }
+            #womensubheading{
+                font-family:tahoma;
+                font-size:100;
+                display:inline;
+                padding-left:5px;
+                padding-top:0x;
+                margin-top:0px;
+                margin-left:5px;
+                color:#f90054;
+            }
+            .womenbtn{
+                padding-left:20px;
+                margin-left:200px;
+            }
+            .men{
+                background-color:black;
+            }
+            #menheading{
+                font-family:Tahoma;
+                display: inline;
+                padding-left: 5px;
+                padding-top:50px;
+                margin-left:5px;
+                margin-top:50px;
+                font-size: 80;
+                color:#ffffff;
+            }
+            #mensubheading{
+                font-family:Tahoma;
+                display: inline;
+                padding-left: 5px;
+                padding-top:50px;
+                margin-left:5px;
+                margin-top:50px;
+                font-size: 80;
+                color:darkgoldenrod;
+            }
+            .menbtn{
+                margin-left:100px;
+                margin-top:20px;
+            }
+            .slide{
+                padding-top:20px;
+                padding-bottom:20px;
+            }
+            .slide1{
+                background-image:url(p1.jpg);
+            }
+            #slideheading{
+                font-family:Tahoma;
+                font-size:2;
+                color:#ffffff;
+                padding-top:50px;
+                margin-bottom:0px;
+            }
+            .slide2{
+                background-image:url(p2.jpg);
+                margin-left:40px;
+            }
+            .slide3{
+                background-image:url(p3.jpg);
+                margin-left:40px;
+            }
+            .slide4{
+                background-image:url(p4.jpg);
+                margin-left:40px;
+            }
+            .slide5{
+                background-image:url(p5.jpg);
+                margin-left:40px;
+            }
+            .footer{
+                background-image: url(footer.jpg);
+            }
+            #payment{
+                text-align:right;
+            }
+            #follow{
+                text-align: right;
+            }
+            #footertext{
+                font-family: tahoma;
+                font-size:12px;
+                color:#acacac;
+                text-align:left;
+            }
+            #copyright{
+                font-family:Verdana;
+                font-size:11px;
+                color:#acacac;
+                padding-top: 40px;
+            }
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body class="body">
+    <header>
+        <div class="top container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p id="toptext">
+                            WELCOME, <a href="login"id="toplink">LOGIN</a> OR <a href="CREATEACCOUNT"id="toplink">CREATE AN ACCOUNT</a> CHECKOUT|LOGIN
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2"id="logoimage">
+                        <img src="logo.png">
+                    </div>
+                    <div class="col-10 "id="logocol">
+                        <img src="phone.png ">
+                        <p id="logotext"> SUPPORT +1234(000)1234</p>
+                        <img src="cart.png">
+                        <p id="logotext"> SHOPPING-CART SUBTOTAL:</p>
+                        <p id="logoammount">$0.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    <div class="container">
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item"id="navlinks">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item"id="navlinks">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item"id="navlinks">
+                <a class="nav-link active" aria-current="page" href="#">Women Collection</a>
+              </li>
+              <li class="nav-item"id="navlinks">
+                <a class="nav-link active" aria-current="page" href="#">Men Collection</a>
+              </li>
+              <li class="nav-item"id="navlinks">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+            <form role="search"class="serach">
+              <input class="form-control" type="search" placeholder="Search Here..." aria-label="Search Here...">
+            </form>
+          </div>
+        </div>
+    </div>
+      </nav>
+      <div class="salebackground container-fluid">
+        <div class="sale container">
+            <div class="salecontent">
+            <h1 id="saleheading">
+                Sale 20%
+            </h1>
+            <h2 id="salesubheading">
+                Lorem Impsum
+            </h2>
+            <p>
+                Lorem ipsum is simply dummy <br>text of the printing and typesetting,<br> industry.Lorem Ipsum has been<br> the industry's standard dummy<br> text ever since the 1500s,when
+            </p>
+            <button type="button" class="btn btn-danger">Shop Now</button>
+        </div>
+    </div>
+      </div>
+      <div class="welcome container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <h1 id="welcomeheading">WELCOME!</h1>
+                </div>
+                <div class="col-10">
+                    <p id="welcometext">Lorem ipsum is simply dummy text of the printing and typesetting, industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an Lorem ipsum is simply dummy text of the printing and typesetting, industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an Lorem ipsum is simply dummy text of the printing and typesetting, industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an Lorem ipsum is simply dummy text of the printing and typesetting, industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an</p>
+                </div>
+                <div class="col-12">
+                    <p id="readmore">Read More...</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="newarrival container-fluid">
+        <div class="container">
+            <h1 id="newarrivalheading">New Arrival</h1>
+            <hr/>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="n1.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="n2.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="n3.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="n4.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="womencollection container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+            <h1 id="newarrivalheading">Women Collection</h1>
+        </div>
+        <div class="col-6"id="right">
+            <p id="viewall">
+                <a id="view"href="#">View All</a>
+            </p>
+        </div>
+        </div>
+            <hr/>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="w1.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="w2.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="w3.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="w4.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="mencollection container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+            <h1 id="newarrivalheading">Men Collection</h1>
+        </div>
+        <div class="col-6"id="right">
+            <p id="viewall">
+                <a id="view"href="#">View All</a>
+            </p>
+        </div>
+        </div>
+            <hr/>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="m1.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="m2.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="m3.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="m4.png"height="200"width="200">
+                    <p id="imagename">NAME GOES HERE</p>
+                    <button type="button" class="btn btn-dark btnname">Add to Cart</button>
+                    <p id="price">$549.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shopnow container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 women align-content-center">
+                    <h1 id="womenheading">WOMEN</h1>
+                    <h2 id="womensubheading">COLLECTION</h2><br>
+                    <button type="button" class="btn btn-light womenbtn">Shop Now</button>
+                </div>
+                <div class="col-3">
+
+                </div>
+                <div class="col-4 men">
+                    <h1 id="menheading">MEN</h1>
+                    <h2 id="mensubheading">COLLECTION</h2><br>
+                    <button type="button" class="btn btn-secondary menbtn">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 slide1">
+                    <p id="slideheading">Women</p>
+                </div>
+                <div class="col-lg-2 slide2">
+                    <p id="slideheading">Men</p>
+                </div>
+                <div class="col-lg-2 slide3">
+                    <p id="slideheading">Women</p>
+                </div>
+                <div class="col-lg-2 slide4">
+                    <p id="slideheading">Men</p>
+                </div>
+                <div class="col-lg-2 slide5">
+                    <p id="slideheading">Women</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p id="copyright">© Copyright 2013 M8styles. All Right Reserved Design & developed by Wapexp</p>
+                </div>
+                <div class="col-3">
+                    <p id="footertext">PAYMENT OPTIONS</p>
+                    <img src="payment.jpg">
+                </div>
+                <div class="col-3">
+                    <p id="footertext">FOLLOW US</p>
+                    <a href="www.twitter.com"><img src="twitter.png"></a>
+                    <a href="www.facebook.com"><img src="facebook.png"></a>
+                    <a href="www.google.com"><img src="google.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
